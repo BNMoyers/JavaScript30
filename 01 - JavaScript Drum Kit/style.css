@@ -1,6 +1,6 @@
 html {
   font-size: 10px;
-  background: url(https://i.imgur.com/b9r5sEL.jpg) bottom center;
+  background: url(./yvette-de-wit-NYrVisodQ2M-unsplash.jpg) bottom center;
   background-size: cover;
 }
 
@@ -8,14 +8,27 @@ body,html {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  height: 100vh;
 }
+
 
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 98vh;
   align-items: center;
   justify-content: center;
+}
+
+.credit {
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+  color: whitesmoke;
+}
+
+a {
+  color: orange;
 }
 
 .key {
